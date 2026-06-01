@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "Library Management System",
+    "description": "Postman Collection for Library Management APIs"
+  },
+  "item": [
+    {
+      "name": "Home",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/"
+      }
+    },
+    {
+      "name": "Add Book",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/books"
+      }
+    },
+    {
+      "name": "View Books",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/books"
+      }
+    },
+    {
+      "name": "Add Member",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/members"
+      }
+    },
+    {
+      "name": "Borrow Book",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/borrow"
+      }
+    },
+    {
+      "name": "Return Book",
+      "request": {
+        "method": "PUT",
+        "url": "http://127.0.0.1:8000/return/1"
+      }
+    }
+  ]
+}
